@@ -14,7 +14,7 @@ export function App() {
   };
 
   return (
-    <div className="frame">
+    <div className="mobile-frame">
       {/* <img src="/splash-screen.jpg" /> */}
       <div className="step-count">{stepCount}</div>
       <div className="easy-counter">
