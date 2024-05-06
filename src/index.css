@@ -30,6 +30,7 @@ button {
   box-shadow: 10px 10px 20px #2b2b2b,
     /* slightly darker shadow for depth */ -10px -10px 20px #3b3b3b; /* slightly lighter shadow for raised effect */
   transition: all 0.3s ease;
+  -webkit-tap-highlight-color: transparent; /* Disable tap highlight on WebKit browsers */
 }
 
 button:hover {
