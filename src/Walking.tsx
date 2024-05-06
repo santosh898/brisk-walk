@@ -23,13 +23,13 @@ const Walking = () => {
   }, [isRunning, pace]);
 
   return (
-    <div>
+    <div className="center">
       <button
         onClick={() => {
           isRunningSignal.value = !isRunningSignal.value;
         }}
       >
-        {isRunning ? "Stop" : "Start"}
+        <img src={isRunning ? "/stop.svg" : "/play.svg"} width={42} />
       </button>
       <audio src="/beepd.mp3" autoPlay={false} ref={audioRef} />
     </div>

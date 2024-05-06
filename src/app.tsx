@@ -14,7 +14,8 @@ export function App() {
   };
 
   return (
-    <div>
+    <div className="frame">
+      {/* <img src="/splash-screen.jpg" /> */}
       <div className="step-count">{stepCount}</div>
       <div className="easy-counter">
         <button
@@ -22,14 +23,14 @@ export function App() {
           disabled={isRunning || stepCount <= MIN}
           onClick={() => modify(-10)}
         >
-          -
+          <img src="/minus.svg" width={42} />
         </button>
         <button
           className="modify-button"
           disabled={isRunning || stepCount >= MAX}
           onClick={() => modify(+10)}
         >
-          +
+          <img src="/plus.svg" width={42} />
         </button>
       </div>
       <Walking />
