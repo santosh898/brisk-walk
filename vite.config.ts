@@ -8,6 +8,13 @@ export default defineConfig({
     preact(),
     VitePWA({
       registerType: "prompt",
+      includeAssets: [
+        "beepd.mp3",
+        "plus.svg",
+        "minus.svg",
+        "stop.svg",
+        "play.svg",
+      ],
       manifest: {
         name: "Brisk Walk",
         short_name: "Brisk Walk",
