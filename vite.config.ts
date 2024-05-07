@@ -14,7 +14,7 @@ export default defineConfig({
         "minus.svg",
         "stop.svg",
         "play.svg",
-        "brisk-walk.webp",
+        "maskable_icon.png",
       ],
       manifest: {
         name: "Brisk Walk",
@@ -36,9 +36,9 @@ export default defineConfig({
             type: "image/png",
           },
           {
-            src: "brisk-walk.webp",
+            src: "maskable_icon.png",
             sizes: "512x512",
-            type: "image/webp",
+            type: "image/png",
             purpose: "any maskable",
           },
         ],
