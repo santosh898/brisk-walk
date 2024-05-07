@@ -13,9 +13,9 @@
       "type": "image/png"
     },
     {
-      "src": "/maskable_icon_x512.png",
+      "src": "/brisk-walk.webp",
       "sizes": "512x512",
-      "type": "image/png",
+      "type": "image/webp",
       "purpose": "any maskable"
     }
   ],
