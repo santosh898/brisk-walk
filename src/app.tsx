@@ -15,7 +15,12 @@ export function App() {
 
   return (
     <div className="mobile-frame">
-      {/* <img src="/splash-screen.jpg" /> */}
+      <div className="title-container">
+        <div className="title">Brisk Walk</div>
+        <div className="subtitle">Set your desired walking pace.</div>
+        <div className="subtitle">Follow the beeps to maintain your pace.</div>
+      </div>
+
       <div className="step-count">{stepCount}</div>
       <div className="easy-counter">
         <button

@@ -8,6 +8,21 @@
   justify-content: center;
 }
 
+.title-container {
+  margin-bottom: 36px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
 .mobile-frame {
   flex: 1;
   display: flex;
@@ -27,7 +42,7 @@
 
 .step-count {
   border: 0;
-  font-size: 140px;
+  font-size: 100px;
   font-weight: bold;
   background-color: #333333; /* Dark grey background */
   width: 300px;
